@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4ff5ee77b543a418504aff617deb80, type: 3}
+  m_Name: Leaf1
+  m_EditorClassIdentifier: 
+  id: leaf1
+  leafObjects:
+  - {fileID: 919132149155446097, guid: 990698f0d4be6af4883d49384fd9f6ff, type: 3}
+  - {fileID: 919132149155446097, guid: 5326807a68cfa3648a663abee8d7cd2a, type: 3}
+  - {fileID: 919132149155446097, guid: 3b4ae6e4b3cee02489977ddb174309f7, type: 3}
+  - {fileID: 919132149155446097, guid: 8549e3c2508bcf54a86b840df08716e1, type: 3}
+  - {fileID: 919132149155446097, guid: 6c3839da8ca17b643bf35a7ee1253ec2, type: 3}
+  - {fileID: 919132149155446097, guid: 9e5c1789c441a6d47895a7338163334f, type: 3}
+  - {fileID: 919132149155446097, guid: ea72eae2ffe218d4e932ed0d0b2470cd, type: 3}
+  - {fileID: 919132149155446097, guid: 015776952e419b4459fc9608bc100f8b, type: 3}
+  - {fileID: 919132149155446097, guid: d82ea87ef63331c4188660dcf7aee581, type: 3}
+  - {fileID: 919132149155446097, guid: b2b08469a0637ec4caea38c3bc5a1ac8, type: 3}
+  leafMaterial: {fileID: 2100000, guid: a874c2bf8712bd54da00a1f8f1c6500a, type: 2}
+  randomSize: 0
+  randomAngle: 0
+  maxSize: 3
+  size: 0
+  growthSpeed: 2
+  leafIndex: 0

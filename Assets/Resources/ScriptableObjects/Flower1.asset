@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075bca7efb2df8f4bbe653a95b559549, type: 3}
+  m_Name: Flower1
+  m_EditorClassIdentifier: 
+  id: flower
+  antherObjects:
+  - {fileID: 919132149155446097, guid: 9a2138cc3573249448b1b21dc38afdf7, type: 3}
+  - {fileID: 919132149155446097, guid: b675318845888224c9c7173d094ff9a8, type: 3}
+  - {fileID: 919132149155446097, guid: 904bcf3aa6ec06241a5cfb58bb935216, type: 3}
+  - {fileID: 919132149155446097, guid: 3eccfce7977ff4044840a379a1e19b8d, type: 3}
+  - {fileID: 919132149155446097, guid: b2af6500e7d1a004587cf19cca3df54d, type: 3}
+  - {fileID: 919132149155446097, guid: 78544f9bd5455b348a7cc7c522ec4a5f, type: 3}
+  - {fileID: 919132149155446097, guid: fbbd65fe05e3bf24bb044373582fb2f4, type: 3}
+  - {fileID: 919132149155446097, guid: 932f484b7863f6146836c9a9d4e1cc5c, type: 3}
+  - {fileID: 919132149155446097, guid: 6ee88ef89a76e424182aa708e6871bc6, type: 3}
+  - {fileID: 919132149155446097, guid: 82f1f1223f2ffa649861a8d1b91f89e0, type: 3}
+  ovuleObjects:
+  - {fileID: 919132149155446097, guid: 7d89d7202c08ea3419dfb7415d7ab6af, type: 3}
+  - {fileID: 919132149155446097, guid: 09f60029c94c4ce47893cc2a722c3f6f, type: 3}
+  - {fileID: 919132149155446097, guid: e068d429ee27ee9448d0258ae6f7c7ed, type: 3}
+  - {fileID: 919132149155446097, guid: 8849e859a761da04db796c53f28fa0c4, type: 3}
+  - {fileID: 919132149155446097, guid: 6bc783fc3cae7e14d9b87ed0038c9c2d, type: 3}
+  - {fileID: 919132149155446097, guid: a0132a706082b6e44973f25809c65db2, type: 3}
+  - {fileID: 919132149155446097, guid: 1d51b13d9fc28b7499c2254aa7de4326, type: 3}
+  - {fileID: 919132149155446097, guid: 0b89c5f15515e894d88b6b6ec8742cb1, type: 3}
+  - {fileID: 919132149155446097, guid: 727433ad474d656428c636e1527ddf96, type: 3}
+  - {fileID: 919132149155446097, guid: f35a8eab865aa1f4bb1299314f65d525, type: 3}
+  petalObjects:
+  - {fileID: 919132149155446097, guid: 40bc6de0cb1ab2442a56e1ff1b6e6227, type: 3}
+  - {fileID: 919132149155446097, guid: d7443ac49ae8a3e4ea42927a5a7b87bb, type: 3}
+  - {fileID: 919132149155446097, guid: 3511d1b41b607f04fa46c2a5cfc7d08f, type: 3}
+  - {fileID: 919132149155446097, guid: 2222b62bb9639bd46a89ab1ee0c9947e, type: 3}
+  - {fileID: 919132149155446097, guid: 88d038bd58151ba47862362174bdc569, type: 3}
+  - {fileID: 919132149155446097, guid: bc5940dd5f4bf324a9889de072fa8edc, type: 3}
+  - {fileID: 919132149155446097, guid: 55c1fcf3f482ecd45acd3bea906f4b4a, type: 3}
+  - {fileID: 919132149155446097, guid: 61de9c8b45072c843913b8df54d82770, type: 3}
+  - {fileID: 919132149155446097, guid: bddc3fe3eeeaa5743b0ea922134ea4d6, type: 3}
+  - {fileID: 919132149155446097, guid: a5d3ac97aa3e2294cb0778a25056f401, type: 3}
+  - {fileID: 919132149155446097, guid: 090cf7ec6823af8429264b1453cf619f, type: 3}
+  - {fileID: 919132149155446097, guid: 715a026c7af3a344d9489f7e24f738fd, type: 3}
+  - {fileID: 919132149155446097, guid: d7065bca2461d27438b54b28cf406299, type: 3}
+  - {fileID: 919132149155446097, guid: d0efd587cdcbf3c4080336cf88004e21, type: 3}
+  - {fileID: 919132149155446097, guid: 16de46dc5c1c9b847ac243ef4ade9da7, type: 3}
+  - {fileID: 919132149155446097, guid: 0972832ec25a7c64aa4ba1d48cdad9a7, type: 3}
+  - {fileID: 919132149155446097, guid: ae629a8de919ec8449035a47496d2e0f, type: 3}
+  - {fileID: 919132149155446097, guid: ab24804e4d3d18542ac13716fe81251f, type: 3}
+  - {fileID: 919132149155446097, guid: 725245e74dea94340a890a33547be4f2, type: 3}
+  - {fileID: 919132149155446097, guid: 756efb01bc4420d4da88c6eae0895565, type: 3}
+  receptacleObjects:
+  - {fileID: 919132149155446097, guid: cdf4a34685fccd341b9b3abcf27516a4, type: 3}
+  - {fileID: 919132149155446097, guid: 653d580c49dd9404a94ca405fea73ae0, type: 3}
+  - {fileID: 919132149155446097, guid: 46b1cb1f5b731a3458c6006650b9fa92, type: 3}
+  - {fileID: 919132149155446097, guid: a8d74fe0a6114e447b48fcaf21775304, type: 3}
+  - {fileID: 919132149155446097, guid: 859606346cfd0d845be745a673052452, type: 3}
+  - {fileID: 919132149155446097, guid: 6e7e2c48e176ede47b34049a4b576cce, type: 3}
+  - {fileID: 919132149155446097, guid: d92ac0843aa86c741953d71a0704d175, type: 3}
+  - {fileID: 919132149155446097, guid: 05ec4fd8da05b5548b1a96afd75fc6f9, type: 3}
+  - {fileID: 919132149155446097, guid: 441bc8f5c786f494b9728d4901fbc766, type: 3}
+  - {fileID: 919132149155446097, guid: b93685e5c49686a45bd214ab9831b5e5, type: 3}
+  antherMaterials:
+  - {fileID: 2100000, guid: 9e9ea742801507148a1f130b3542a876, type: 2}
+  - {fileID: 2100000, guid: e1dfaddb390c9d946b722d4b7aeeb035, type: 2}
+  ovuleMaterials:
+  - {fileID: 2100000, guid: e1dfaddb390c9d946b722d4b7aeeb035, type: 2}
+  - {fileID: 2100000, guid: 9e9ea742801507148a1f130b3542a876, type: 2}
+  petalMaterials:
+  - {fileID: 2100000, guid: e883726d5971d3d4d9bcc25a6891324f, type: 2}
+  receptacleMaterials:
+  - {fileID: 2100000, guid: a874c2bf8712bd54da00a1f8f1c6500a, type: 2}
+  nrPetals: 0
+  randomPetalAngle: 15
+  randomPetalSize: 0.2
+  maxSize: 8
+  size: 0
+  growthSpeed: 4
+  antherIndex: 0
+  ovuleIndex: 0
+  petalIndex: 0
+  receptacleIndex: 0

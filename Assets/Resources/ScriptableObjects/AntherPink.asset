@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a976d85102a3642b2bee7cb7cc775a, type: 3}
+  m_Name: AntherPink
+  m_EditorClassIdentifier: 
+  id: 
+  transparentMaterial: {fileID: 2100000, guid: 9ba5ec62dd870394590f8dad62341551, type: 2}
+  antherMaterial: {fileID: 2100000, guid: 0a51722621841af4099413349900c2d7, type: 2}
+  antherModel: {fileID: 919132149155446097, guid: 983046a071327d449b104f82b4908478,
+    type: 3}
+  antherPrefab: {fileID: 7083698276674230782, guid: 4933beeb8acbad449b348e8dab587ad0,
+    type: 3}
+  plantPrefab: {fileID: 5177798661907692616, guid: 4c51011c1184816489f3fafe994f064b,
+    type: 3}
+  type: 2
+  uiColor: {r: 1, g: 0.15294118, b: 0.92941177, a: 0}
+  description: A wild entity with hidden powers
+  collected: 0
+  quantity: 3
+  genergy: 0
+  splicergy: 0
+  canStack: 1
+  maxStackAmount: 20
+  gen: 1
+  properties:
+  - propertyType: 0
+    value: 1.2
+    minValue: 0.02
+    maxValue: 1.2
+  - propertyType: 5
+    value: 0.25
+    minValue: 0.01
+    maxValue: 0.25
+  - propertyType: 1
+    value: 0.1
+    minValue: 0.02
+    maxValue: 0.9
+  - propertyType: 4
+    value: 0.7
+    minValue: 0.3
+    maxValue: 1
+  rules:
+  - ruleType: 0
+    rule: ff"B//B//B
+  - ruleType: 1
+    rule: '&fC//D///fCfA'
+  - ruleType: 2
+    rule: '&f/&fj'
+  - ruleType: 3
+    rule: '&f^ffj'
+  - ruleType: 4
+    rule: '"fF///F///F'
+  - ruleType: 4
+    rule: '&fffE'

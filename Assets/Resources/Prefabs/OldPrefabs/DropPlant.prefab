@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4453254959254467408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310228590564037353}
+  m_Layer: 11
+  m_Name: AntherModelHolder
+  m_TagString: Anther
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310228590564037353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453254959254467408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.015, y: -0.011, z: 0.008}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 7881182275538404184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6206528033469041619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7881182275538404184}
+  - component: {fileID: 7446507667569360808}
+  - component: {fileID: 873883243222606542}
+  - component: {fileID: 4299306702161641822}
+  - component: {fileID: 3799605084498922036}
+  m_Layer: 11
+  m_Name: DropPlant
+  m_TagString: Plant
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7881182275538404184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206528033469041619}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1310228590564037353}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7446507667569360808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206528033469041619}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dcf3dabcc1c448bfef8ca1dad9513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  branchPrefab: {fileID: 1041585319066055462, guid: 56bb3c5cb6b7acd4c8ee80521c2cb0bf,
+    type: 3}
+  flowerPrefab: {fileID: 17810693152108456, guid: 4273cf644b73cbf4ab6b84e11925854f,
+    type: 3}
+  leafPrefab: {fileID: 7848152928840138207, guid: 718366f49fdafa04fb65c5575fef2692,
+    type: 3}
+  material: {fileID: 2100000, guid: 2cdb5b46563a5bc47b65d645ffa850e4, type: 2}
+  stemMaterial: {fileID: 0}
+  sides: 3
+  segments: 3
+  radius: 0.1
+  lenght: 1.2
+  scale: 0.8
+  rotation: 40
+  bend: 15
+  tapering: 0.8
+  randomness: 0.4
+  lerpGrowth: 1
+  growthSpeed: 5
+  growthMultiplierRadius: 4
+  stemGenerations: 2
+  rootGenerations: 3
+  endSegmentLenght: 1.5
+  curveLenght: 0.5
+  amplitude: 0.1
+  curLenght: 0
+  ruleA: f"B///B///B
+  ruleB: '&fC/////fCfA'
+  ruleC: '&j'
+  ruleD: 
+  ruleE: '"F///F///F'
+  ruleF: '&fffE'
+  ruleG: 
+  ruleH: 
+  ruleListA: 
+  ruleListB: 
+  ruleListC: 
+  ruleListD: 
+  ruleListE: 
+  ruleListF: 
+  ruleListG: 
+  ruleListH: 
+--- !u!135 &873883243222606542
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206528033469041619}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.02
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4299306702161641822
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206528033469041619}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3799605084498922036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206528033469041619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc341420a826d1544be511e35d2692fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
